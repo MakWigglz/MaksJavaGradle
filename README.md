@@ -66,3 +66,21 @@ Implement data validation rules
 Add bulk import/export capabilities
 Create data archiving system
 These additions would transform it into a full-fledged enterprise resource planning (ERP) system while building upon your existing foundation of employee and sales analysis.
+
+project-root/
+├── Dockerfile
+├── docker-compose.yml
+├── src/
+│   └── main/
+│       └── resources/
+│           └── schema.sql
+├── gradle/
+└── build.gradle
+
+This setup provides:
+
+A containerized Java application
+PostgreSQL database with persistent storage
+Database schema for employees and sales
+Docker Compose for orchestrating the services
+The existing sorting algorithms (MergeSort and QuickSort) can be utilized within the service layer for data analysis and reporting features as you build out the rest of the system.
